@@ -1,0 +1,26 @@
+#root {
+  max-width: 1240px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;   
+    gap: 20px;
+    margin: 15px;
+}
+.badge {
+    width: 100%;    
+}
+h1, h5 {
+    padding: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: rgb(247, 240, 221);
+}
